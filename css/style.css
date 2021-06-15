@@ -1,0 +1,139 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+:root {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 84vh;
+    background: linear-gradient(#F0B110, white);
+}
+header>div{
+    height: 60vh;
+} 
+header>nav{
+    height: 24vh;
+}
+header>nav>ul>li{
+    margin-bottom: 2px;
+}
+#profFoto{
+    height: 30vh;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 10vh 34vw;
+}
+h1{
+    font-size: 3.5rem;
+    color: #1B0932;
+    text-align: center;
+    margin-top: 3vh;
+}
+h2{
+    font-size: 2.4rem;
+    color: #3F1A70;
+    text-align: center;
+}
+h1+p{
+    font-size: 2.4rem;
+    color: #3F1A70;
+    text-align: center;
+    margin-top: 2vh;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+nav{
+    height: 25vh;
+    width: 100vw;
+    margin-top: 10vh;
+}
+nav>ul>li{
+    height: 6vh;
+    background-color: #3F1A70;
+    padding: 0.5rem;
+    transition: 300ms;
+}
+nav>ul>li:hover{
+    background-color: #F0B110;
+}
+nav>ul>li>a{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1vh auto auto 5vw;
+}
+#curriculum{
+    height: 20vh;
+    margin-top: 15vh;
+}
+#curriculum>p{
+    color: #F0B110;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3vh;
+}
+#curriculum>p>a{
+    color: #7935d3;
+    font-weight: 400;
+    transition: 300ms;
+    padding: 0.5vh 0.5vw;
+    border-radius: 3px;
+}
+#curriculum>p>a:hover{
+    color: #F0B110;
+    background-color: #7935d3;
+}
+.webImg{
+    height: 25vh;
+    width: 80vw;
+    object-fit: cover;
+}
+#slide{
+    margin: 3vh 10vw 2vh 10vw;
+}
+#slide>li{
+    margin-bottom: 3vh;
+}
+#skills{
+    height: 20vh;
+    margin: 3vh 10vw;
+}
+#skills>ul{
+    margin-top:3vh;
+    font-size: 1.8rem;
+}
+#skills>ul>li{
+    margin-bottom: 1vh;
+    outline: #F0B110 2px solid;
+    padding: 1rem;
+}
+footer{    
+    background: linear-gradient(white, #F0B110);
+    margin-top: 5vh;
+}
+footer>div{
+    margin: 3vh 10vw 5vh;
+}
+footer>div>ul{
+    margin-top: 3vh;
+}
+footer>div>ul>li{
+    margin-top: 2vh;
+}
+.iconTxt{
+    margin-left: 1vw;
+    color: #3F1A70;
+    font-size: 1.8rem;
+    font-weight: 400;
+}  
